@@ -1,0 +1,9 @@
+channels:
+  - defaults
+  - conda-forge
+
+envs_dirs:
+  - C:\ProgramData\Miniconda3\envs
+
+pkgs_dirs:
+  - C:\ProgramData\Miniconda3\pkgs
