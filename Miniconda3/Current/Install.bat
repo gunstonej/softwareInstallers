@@ -33,7 +33,6 @@ echo installer: %installer%
 echo condarc src: %src%
 echo condarc dstn: %dstn%
 echo installfol: %installfol%
-echo MapY: %mapy%
 echo rootfol: %rootfol%
 echo setpaths: %setpaths%
 echo activateconda: %activateconda%
@@ -42,7 +41,6 @@ echo jlabsetup: %jlabsetup%
 echo desktoplinks: %desktoplinks%
 echo %condaScripts%
 echo %condabin%
-echo UnMapY: %unmapy%
 echo --------------------------
 
 pause
