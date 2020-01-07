@@ -17,9 +17,9 @@ REM customisation
 REM --------------
 set rootfol=\\maxfordham.com\data\Git_Projects
 set MF_ROOT %rootfol%
-setx MF_ROOT %rootfol%
+::setx MF_ROOT %rootfol% /M
 REM passing n as arg below denotes (no) not using Git for dev work
-set setpaths=%rootfol%\engDevSetup\dev\conda\CALL-set-paths.bat n
+set setpaths=%rootfol%\engDevSetup\dev\conda\set-paths.bat n
 set activateconda=%rootfol%\engDevSetup\dev\conda\conda-activate_conda.bat
 set envsetup=%rootfol%\engDevSetup\dev\conda\CALL-conda-env_create_update-mf_main.bat
 set jlabsetup=%rootfol%\engDevSetup\dev\jupyter\CALL-JupyterLab-setup_env-mf_main.bat
