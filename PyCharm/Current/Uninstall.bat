@@ -3,15 +3,13 @@ REM ----------NOTES------------
 REM https://www.jetbrains.com/help/pycharm/uninstall.html
 REM run as admin
 
-REM ----------SET--------------
-set FOL=%PROGRAMFILES(x86)%\JetBrains\PyCharm Community Edition 2019.2.5\bin
-set UNINSTALLER=uninstall.exe
 echo ---------VERIFY-----------
-echo FOL: %FOL%
-ECHO UNINSTALLER: %UNINSTALLER%
+echo FOL: %PROGRAMFILES(x86)%\JetBrains\PyCharm Community Edition 2019.2.5\bin
+ECHO UNINSTALLER: uninstall.exe
 echo --------------------------
 pause
 REM ---------RUN---------------
-pushd %FOL%
+pushd %PROGRAMFILES(x86)%\JetBrains\PyCharm Community Edition 2019.2.5\bin
+call uninstall.exe /S
+
 pause
-call %UNINSTALLER% /S
